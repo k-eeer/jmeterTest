@@ -14,7 +14,7 @@ head1=$(head -1 *jtl|awk  -F "," '{printf "%s\t%s\t%s\n" ,$6,$8,$14}')
 sed "1 i$head1" -i allwebtest.txt
 
 #push to remote repo
-git add .
+git add *sh *jmx
 git commit -m "initial commit"
 git push origin master
 
