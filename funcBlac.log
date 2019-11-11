@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1573489930636,1157,funcblackbox ,200,OK,funcblackbox  1-1,text,true,,95405,369,1,8,https://www.google.com/search?client=ubuntu&channel=fs&q=functional+test,588,0,555
+1573489930636,588,funcblackbox -0,301,Moved Permanently,funcblackbox  1-1,text,true,,816,205,1,8,https://google.com/search?client=ubuntu&channel=fs&q=functional+test,588,0,555
+1573489931227,566,funcblackbox -1,200,OK,funcblackbox  1-1,text,true,,94589,164,1,8,https://www.google.com/search?client=ubuntu&channel=fs&q=functional+test,173,0,118
+1573489931802,427,funcblackboxF,200,OK,funcblackbox  1-1,text,false,Test failed: text expected to contain /Functional_testing/,41539,359,1,7,https://www.google.com/search?client=ubuntu&channel=fs&q=functional,23,0,0
+1573489931802,24,funcblackboxF-0,301,Moved Permanently,funcblackbox  1-1,text,true,,806,200,1,7,https://google.com/search?client=ubuntu&channel=fs&q=functional,23,0,0
+1573489931826,403,funcblackboxF-1,200,OK,funcblackbox  1-1,text,true,,40733,159,1,7,https://www.google.com/search?client=ubuntu&channel=fs&q=functional,65,0,0
