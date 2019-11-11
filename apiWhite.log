@@ -1,2 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1573489930636,1175,HTTP Request,200,OK,apiwhitebox  2-1,text,true,,2828,233,1,8,https://en.wikipedia.org/w/api.php?action=parse&section=0&prop=text&format=json&page=api+testing,1175,0,657

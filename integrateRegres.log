@@ -1,4 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1573489932636,199,news module-today's news,200,OK,integraregre 3-1,text,true,,39669,373,1,1,https://www.google.com/search?q=+&safe=strict&hl=zh-TW&source=lnms&tbm=nws,21,0,0
-1573489932636,21,news module-today's news-0,301,Moved Permanently,integraregre 3-1,text,true,,828,207,1,1,https://google.com/search?q=+&safe=strict&hl=zh-TW&source=lnms&tbm=nws,21,0,0
-1573489932658,177,news module-today's news-1,200,OK,integraregre 3-1,text,true,,38841,166,1,1,https://www.google.com/search?q=+&safe=strict&hl=zh-TW&source=lnms&tbm=nws,46,0,0

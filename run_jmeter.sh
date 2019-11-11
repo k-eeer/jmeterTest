@@ -15,9 +15,7 @@ sed "1 i$head1" -i allwebtest.txt
 
 rm *jtl result.txt allwebtest.txt *log
 #push to remote repo
-git pull --rebase
-git add *sh *jmx
-git reset --hard origin master
+git add .
 git commit -m "initial commit"
 git push origin master
 
