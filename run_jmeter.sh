@@ -17,5 +17,6 @@ rm *jtl result.txt allwebtest.txt *log
 #push to remote repo
 git add .
 git commit -m "initial commit"
+git pull
 git push origin master
 
