@@ -18,6 +18,6 @@ rm *jtl result.txt allwebtest.txt *log
 git add .
 git commit -m "initial commit"
 git pull origin master
-git push -u origin master
+git push -u origin master "message"
 
 
