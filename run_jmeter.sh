@@ -9,7 +9,7 @@ rm *jtl result.txt allwebtest.txt
 #extract threadName, success and URL of the result
 cat allwebtest.jtl|grep -v stress |awk  -F "," '{print $3,$8,$14}'>result.txt
 sed -i -e  '1d' result.txt
-cat result.txt| awk   '{printf "%s%s\t%s\t%s\n", $1,$2,$3,$4}'>allwebtest.txt
+cat result.txt| awk   '{printf "%s\t%s\t%s\n", $1,$3,$4}'>allwebtest.txt
 head1=$(head -1 *jtl|awk  -F "," '{printf "%s\t%s\t%s\n" ,$6,$8,$14}')
 sed "1 i$head1" -i allwebtest.txt
 
