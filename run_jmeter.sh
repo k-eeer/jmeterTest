@@ -7,7 +7,7 @@ rm *jtl result.txt allwebtest.txt
 /home/kate/apache-jmeter-5.1.1/bin/jmeter -nt allwebtest.jmx -l allwebtest.jtl -j allwebtest.log
 
 #extract threadName, success and URL of the result
-cat allwebtest.jtl|grep -v stress |awk  -F "," '{print $3,$8,$14}'>result.txt
+cat allwebtest.jtl|grep -v stress |awk  -F "," '{print $3,$8,$14}'|grep -v "\-[0-9] ">result.txt
 sed -i -e  '1d' result.txt
 cat result.txt| awk   '{printf "%s\t%s\t%s\n", $1,$3,$4}'>allwebtest.txt
 head1=$(head -1 *jtl|awk  -F "," '{printf "%s\t%s\t%s\n" ,$6,$8,$14}')
