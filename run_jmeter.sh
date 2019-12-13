@@ -13,7 +13,7 @@ cat result.txt| awk   '{printf "%s%s\t%s\t%s\n", $1,$2,$3,$4}'>allwebtest.txt
 head1=$(head -1 *jtl|awk  -F "," '{printf "%s\t%s\t%s\n" ,$6,$8,$14}')
 sed "1 i$head1" -i allwebtest.txt
 
-rm *jtl result.txt allwebtest.txt *log
+#rm *jtl result.txt allwebtest.txt *log
 #push to remote repo
 git add .
 git pull origin master
