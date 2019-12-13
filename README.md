@@ -13,14 +13,14 @@
 
     The whole test stucture:
 
-![](https://raw.githubusercontent.com/k-eeer/jmetertest/master/testStructure.png?token=AI7IU7Y2LVENVOPCFH4VIJC56ODAU)
+![]()
 
 
     It'll generate a result as .jtl file. You  can view it in  chart or graph  with jmeter  GUI listeners.
 
-![](https://raw.githubusercontent.com/k-eeer/jmetertest/master/resultChart.png?token=AI7IU7YVUOHQ625IJ3GNDQ256ODPE)
+![]()
 
-![](https://raw.githubusercontent.com/k-eeer/jmetertest/master/stressGraph.png?token=AI7IU7YKMH22OJ4F65HWBLK56ODF4)
+![]()
 
 
 
@@ -28,7 +28,7 @@
 
     $less allwebtest.txt
 
-![](https://raw.githubusercontent.com/k-eeer/jmetertest/master/quickResult.png?token=AI7IU764WIO6QTXAFFZJLBK56ODIS)
+![]()
 
 
 
