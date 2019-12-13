@@ -1,6 +1,6 @@
-funcblackbox  false https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dubuntu%26channel%3Dfs%26q%3Dfunctional%2Btest&q=EgQBoS4vGIqJze8FIhkA8aeDSxjQ0k_KChbp6DIEXi1o7W4BMDkcMgFy
-funcblackboxF false https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dubuntu%26channel%3Dfs%26q%3Dfunctional&q=EgQBoS4vGIuJze8FIhkA8aeDS9_PbzAfE2ohPBRnUQ71ulTjFaI2MgFy
+funcblackbox  false https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dubuntu%26channel%3Dfs%26q%3Dfunctional%2Btest&q=EgQBoS4vGMSJze8FIhkA8aeDS69R0qC2m4BdDei_EV-hzr-JEgttMgFy
+funcblackboxF false https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dubuntu%26channel%3Dfs%26q%3Dfunctional&q=EgQBoS4vGMqJze8FIhkA8aeDS06cIn8W8V6mvs0k9WrmnweL9skaMgFy
 apiwhitebox false https://en.wikipedia.org/w/api.php?action=parse&section=0&prop=text&format=json&page=api+testing
-module-1-Weather false https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dwhat%27s%2Bthe%2Bweather&q=EgQBoS4vGI6Jze8FIhkA8aeDS87xsi9KHItRQ3oh82dapmJU2tnhMgFy
+module-1-Weather false https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dwhat%27s%2Bthe%2Bweather&q=EgQBoS4vGMyJze8FIhkA8aeDSzjnDl_WRn4bv-7bKXW7Yv0FFngOMgFy
 module-2-todayWeather false https://weather.com/zh-TW/weather/today/l/TWXX0021:1:TW
-module-3-todayNews false https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2B%26safe%3Dstrict%26hl%3Dzh-TW%26source%3Dlnms%26tbm%3Dnws&hl=zh-TW&q=EgQBoS4vGJCJze8FIhkA8aeDS1LYPvrTTpX7fYNa-7_EPDRBVJRkMgFy
+module-3-todayNews false https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2B%26safe%3Dstrict%26hl%3Dzh-TW%26source%3Dlnms%26tbm%3Dnws&hl=zh-TW&q=EgQBoS4vGM6Jze8FIhkA8aeDS9Fr0BE27tAxg0CwxBWkscAbEfq9MgFy
