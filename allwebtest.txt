@@ -1,21 +1,21 @@
 threadName	success	URL
-1-1false	https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dubuntu%26channel%3Dfs%26q%3Dfunctional%2Btest&q=EgQBoS4vGJnrzO8FIhkA8aeDSz4lOzEK2Ymwl8Z-TnoSeif_zZzCMgFy	
-1-1true	https://google.com/search?client=ubuntu&channel=fs&q=functional+test	
-1-1true	https://www.google.com/search?client=ubuntu&channel=fs&q=functional+test	
-1-1false	https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dubuntu%26channel%3Dfs%26q%3Dfunctional%2Btest&q=EgQBoS4vGJnrzO8FIhkA8aeDSz4lOzEK2Ymwl8Z-TnoSeif_zZzCMgFy	
-1-1false	https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dubuntu%26channel%3Dfs%26q%3Dfunctional&q=EgQBoS4vGJrrzO8FIhkA8aeDS-M4W2_sBkMU32HI-tnDdkJOX1RSMgFy	
-1-1true	https://google.com/search?client=ubuntu&channel=fs&q=functional	
-1-1true	https://www.google.com/search?client=ubuntu&channel=fs&q=functional	
-1-1false	https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dubuntu%26channel%3Dfs%26q%3Dfunctional&q=EgQBoS4vGJrrzO8FIhkA8aeDS-M4W2_sBkMU32HI-tnDdkJOX1RSMgFy	
-1-1false	https://en.wikipedia.org/w/api.php?action=parse&section=0&prop=text&format=json&page=api+testing	
-1-1false	https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2B%26safe%3Dstrict%26hl%3Dzh-TW%26source%3Dlnms%26tbm%3Dnws&hl=zh-TW&q=EgQBoS4vGJzrzO8FIhkA8aeDS5Yky3rPCS0t6_ehVfFmZl7j0AGzMgFy	
-1-1true	https://google.com/search?q=+&safe=strict&hl=zh-TW&source=lnms&tbm=nws	
-1-1true	https://www.google.com/search?q=+&safe=strict&hl=zh-TW&source=lnms&tbm=nws	
-1-1false	https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2B%26safe%3Dstrict%26hl%3Dzh-TW%26source%3Dlnms%26tbm%3Dnws&hl=zh-TW&q=EgQBoS4vGJzrzO8FIhkA8aeDS5Yky3rPCS0t6_ehVfFmZl7j0AGzMgFy	
-1-1false	https://weather.com/zh-TW/weather/today/l/TWXX0021:1:TW	
-1-1true	https://weather.com/wx/today	
-1-1true	https://weather.com/zh-TW/weather/today/l/TWXX0021:1:TW	
-1-1false	https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dwhat%27s%2Bthe%2Bweather&q=EgQBoS4vGJ3rzO8FIhkA8aeDS0CmJAMh9lcNCUgMkPti0MlVGgzpMgFy	
-1-1true	https://google.com/search?q=what's+the+weather	
-1-1true	https://www.google.com/search?q=what's+the+weather	
-1-1false	https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dwhat%27s%2Bthe%2Bweather&q=EgQBoS4vGJ3rzO8FIhkA8aeDS0CmJAMh9lcNCUgMkPti0MlVGgzpMgFy	
+funcblackboxfalse	https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dubuntu%26channel%3Dfs%26q%3Dfunctional%2Btest&q=EgQBoS4vGKbzzO8FIhkA8aeDS0I_G6TSj_ndm4KUxlSTxAJhXc5eMgFy	
+funcblackbox-0	true	https://google.com/search?client=ubuntu&channel=fs&q=functional+test
+funcblackbox-1	true	https://www.google.com/search?client=ubuntu&channel=fs&q=functional+test
+funcblackbox-2	false	https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dubuntu%26channel%3Dfs%26q%3Dfunctional%2Btest&q=EgQBoS4vGKbzzO8FIhkA8aeDS0I_G6TSj_ndm4KUxlSTxAJhXc5eMgFy
+funcblackboxFfalse	https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dubuntu%26channel%3Dfs%26q%3Dfunctional&q=EgQBoS4vGKnzzO8FIhkA8aeDS1Umphc3W-Zn86jtkalKFxH439YKMgFy	
+funcblackboxF-0true	https://google.com/search?client=ubuntu&channel=fs&q=functional	
+funcblackboxF-1true	https://www.google.com/search?client=ubuntu&channel=fs&q=functional	
+funcblackboxF-2false	https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dubuntu%26channel%3Dfs%26q%3Dfunctional&q=EgQBoS4vGKnzzO8FIhkA8aeDS1Umphc3W-Zn86jtkalKFxH439YKMgFy	
+apiwhiteboxfalse	https://en.wikipedia.org/w/api.php?action=parse&section=0&prop=text&format=json&page=api+testing	
+newsmodule-today's	news	false
+newsmodule-today's	news-0	true
+newsmodule-today's	news-1	true
+newsmodule-today's	news-2	false
+today'sweather	false	https://weather.com/zh-TW/weather/today/l/TWXX0021:1:TW
+today'sweather-0	true	https://weather.com/wx/today
+today'sweather-1	true	https://weather.com/zh-TW/weather/today/l/TWXX0021:1:TW
+weatherfalse	https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dwhat%27s%2Bthe%2Bweather&q=EgQBoS4vGLjzzO8FIhkA8aeDSxil5ktjt7KyKpAIoIjDF1T6ALJPMgFy	
+weather-0true	https://google.com/search?q=what's+the+weather	
+weather-1true	https://www.google.com/search?q=what's+the+weather	
+weather-2false	https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dwhat%27s%2Bthe%2Bweather&q=EgQBoS4vGLjzzO8FIhkA8aeDSxil5ktjt7KyKpAIoIjDF1T6ALJPMgFy	
