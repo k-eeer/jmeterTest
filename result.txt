@@ -1,6 +1,0 @@
-apiwhitebox true https://en.wikipedia.org/w/api.php?action=parse&section=0&prop=text&format=json&page=api+testing
-m-1-Weather false https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dwhat%27s%2Bthe%2Bweather&q=EgQBoS4vGMKLze8FIhkA8aeDS2I9ZZ43FSNEZhuKtSpyWT6lDvJzMgFy
-funcblac false https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dubuntu%26channel%3Dfs%26q%3Dfunctional%2Btest&q=EgQBoS4vGMSLze8FIhkA8aeDS8HiLecUf0gumHWtu06S_gHB1ZA-MgFy
-m-2-todayWeather true https://weather.com/zh-TW/weather/today/l/TWXX0021:1:TW
-funcBlacF false https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dubuntu%26channel%3Dfs%26q%3Dfunctional&q=EgQBoS4vGMaLze8FIhkA8aeDS8RYo6F-WwkkAXkYVq7RgDdDXW9xMgFy
-m-3-todayNews false https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2B%26safe%3Dstrict%26hl%3Dzh-TW%26source%3Dlnms%26tbm%3Dnws&hl=zh-TW&q=EgQBoS4vGMaLze8FIhkA8aeDS3U1uSbwPmTX88_bVObgbtghgssUMgFy
