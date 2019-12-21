@@ -1,0 +1,9 @@
+apiWhitebox true https://en.wikipedia.org/w/api.php?action=parse&section=0&prop=text&format=json&page=api+testing
+funcBlac true https://www.google.com/search?client=ubuntu&channel=fs&q=functional+test
+m1-reserve.php true http://blazedemo.com/reserve.php
+m1-reserve.php  69
+m2-purchase.php true http://blazedemo.com/purchase.php
+m2-purchase.php  85
+m3-confirmation.php true http://blazedemo.com/confirmation.php
+m3-confirmation.php  102
+funcBlacF false https://www.google.com/search?client=ubuntu&channel=fs&q=functional
