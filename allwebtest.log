@@ -1,388 +1,388 @@
-2019-12-22 02:46:34,764 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2019-12-22 02:46:34,786 INFO o.a.j.JMeter: Loading user properties from: /home/kate/apache-jmeter-5.1.1/bin/user.properties
-2019-12-22 02:46:34,787 INFO o.a.j.JMeter: Loading system properties from: /home/kate/apache-jmeter-5.1.1/bin/system.properties
-2019-12-22 02:46:34,796 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
-2019-12-22 02:46:34,796 INFO o.a.j.JMeter: Version 5.1.1 r1855137
-2019-12-22 02:46:34,796 INFO o.a.j.JMeter: java.version=1.8.0_232
-2019-12-22 02:46:34,796 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2019-12-22 02:46:34,796 INFO o.a.j.JMeter: os.name=Linux
-2019-12-22 02:46:34,797 INFO o.a.j.JMeter: os.arch=amd64
-2019-12-22 02:46:34,797 INFO o.a.j.JMeter: os.version=4.15.0-72-generic
-2019-12-22 02:46:34,797 INFO o.a.j.JMeter: file.encoding=UTF-8
-2019-12-22 02:46:34,797 INFO o.a.j.JMeter: java.awt.headless=null
-2019-12-22 02:46:34,797 INFO o.a.j.JMeter: Max memory     =1073741824
-2019-12-22 02:46:34,797 INFO o.a.j.JMeter: Available Processors =4
-2019-12-22 02:46:34,802 INFO o.a.j.JMeter: Default Locale=English (EN)
-2019-12-22 02:46:34,803 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2019-12-22 02:46:34,803 INFO o.a.j.JMeter: JMeterHome=/home/kate/apache-jmeter-5.1.1
-2019-12-22 02:46:34,803 INFO o.a.j.JMeter: user.dir  =/home/kate/git
-2019-12-22 02:46:34,803 INFO o.a.j.JMeter: PWD       =/home/kate/git
-2019-12-22 02:46:34,803 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: k FullName: k
-2019-12-22 02:46:34,808 INFO o.a.j.s.FileServer: Default base='/home/kate/git'
-2019-12-22 02:46:34,814 INFO o.a.j.s.FileServer: Set new base='/home/kate/git'
-2019-12-22 02:46:35,017 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2019-12-22 02:46:35,031 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2019-12-22 02:46:35,037 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2019-12-22 02:46:35,045 INFO o.a.j.s.SaveService: Loading file: allwebtest.jmx
-2019-12-22 02:46:35,104 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-12-22 02:46:35,104 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-12-22 02:46:35,104 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-12-22 02:46:35,104 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-12-22 02:46:35,104 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2019-12-22 02:46:35,104 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2019-12-22 02:46:35,423 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
-2019-12-22 02:46:35,424 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/kate/apache-jmeter-5.1.1/bin/proxyserver.jks
-2019-12-22 02:46:35,467 INFO o.a.j.JMeter: Creating summariser <summary>
-2019-12-22 02:46:35,475 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2019-12-22 02:46:35,476 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-12-22 02:46:35,476 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-12-22 02:46:35,485 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2019-12-22 02:46:35,485 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2019-12-22 02:46:36,032 INFO o.a.j.JMeter: Running test (1576953996032)
-2019-12-22 02:46:36,035 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
-2019-12-22 02:46:36,035 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : apiWhite 
-2019-12-22 02:46:36,035 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group apiWhite.
-2019-12-22 02:46:36,036 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-12-22 02:46:36,036 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2019-12-22 02:46:36,043 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2019-12-22 02:46:36,043 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 2 : funcBlac 
-2019-12-22 02:46:36,044 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group funcBlac.
-2019-12-22 02:46:36,044 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-12-22 02:46:36,044 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
-2019-12-22 02:46:36,045 INFO o.a.j.t.JMeterThread: Thread started: apiWhite 1-1
-2019-12-22 02:46:36,046 INFO o.a.j.t.ThreadGroup: Started thread group number 2
-2019-12-22 02:46:36,046 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 3 : intergraRegre 
-2019-12-22 02:46:36,046 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group intergraRegre.
-2019-12-22 02:46:36,046 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-12-22 02:46:36,046 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
-2019-12-22 02:46:36,049 INFO o.a.j.t.JMeterThread: Thread started: funcBlac 2-1
-2019-12-22 02:46:36,054 INFO o.a.j.t.ThreadGroup: Started thread group number 3
-2019-12-22 02:46:36,055 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 4 : stress 
-2019-12-22 02:46:36,055 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group stress.
-2019-12-22 02:46:36,055 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-12-22 02:46:36,055 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=100 ramp-up=2 delayedStart=false
-2019-12-22 02:46:36,060 INFO o.a.j.t.JMeterThread: Thread started: stress 4-1
-2019-12-22 02:46:36,063 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2019-12-22 02:46:36,064 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2019-12-22 02:46:36,064 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2019-12-22 02:46:36,066 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2019-12-22 02:46:36,073 INFO o.a.j.t.JMeterThread: Thread started: intergraRegre 3-1
-2019-12-22 02:46:36,090 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = k
-2019-12-22 02:46:36,094 INFO o.a.j.t.JMeterThread: Thread started: stress 4-2
-2019-12-22 02:46:36,107 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2019-12-22 02:46:36,114 INFO o.a.j.t.JMeterThread: Thread started: stress 4-3
-2019-12-22 02:46:36,122 INFO o.a.j.t.JMeterThread: Thread started: stress 4-4
-2019-12-22 02:46:36,144 INFO o.a.j.t.JMeterThread: Thread started: stress 4-5
-2019-12-22 02:46:36,161 INFO o.a.j.t.JMeterThread: Thread started: stress 4-6
-2019-12-22 02:46:36,178 INFO o.a.j.t.JMeterThread: Thread started: stress 4-7
-2019-12-22 02:46:36,198 INFO o.a.j.t.JMeterThread: Thread started: stress 4-8
-2019-12-22 02:46:36,217 INFO o.a.j.t.JMeterThread: Thread started: stress 4-9
-2019-12-22 02:46:36,238 INFO o.a.j.t.JMeterThread: Thread started: stress 4-10
-2019-12-22 02:46:36,258 INFO o.a.j.t.JMeterThread: Thread started: stress 4-11
-2019-12-22 02:46:36,278 INFO o.a.j.t.JMeterThread: Thread started: stress 4-12
-2019-12-22 02:46:36,306 INFO o.a.j.t.JMeterThread: Thread started: stress 4-13
-2019-12-22 02:46:36,317 INFO o.a.j.t.ThreadGroup: Started thread group number 4
-2019-12-22 02:46:36,317 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
-2019-12-22 02:46:36,321 INFO o.a.j.t.JMeterThread: Thread started: stress 4-14
-2019-12-22 02:46:36,339 INFO o.a.j.t.JMeterThread: Thread started: stress 4-15
-2019-12-22 02:46:36,358 INFO o.a.j.t.JMeterThread: Thread started: stress 4-16
-2019-12-22 02:46:36,363 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2019-12-22 02:46:36,370 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2019-12-22 02:46:36,370 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2019-12-22 02:46:36,378 INFO o.a.j.t.JMeterThread: Thread started: stress 4-17
-2019-12-22 02:46:36,399 INFO o.a.j.t.JMeterThread: Thread started: stress 4-18
-2019-12-22 02:46:36,419 INFO o.a.j.t.JMeterThread: Thread started: stress 4-19
-2019-12-22 02:46:36,440 INFO o.a.j.t.JMeterThread: Thread started: stress 4-20
-2019-12-22 02:46:36,455 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2019-12-22 02:46:36,459 INFO o.a.j.u.SSLManager: KeyStore created OK
-2019-12-22 02:46:36,460 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2019-12-22 02:46:36,461 INFO o.a.j.t.JMeterThread: Thread started: stress 4-21
-2019-12-22 02:46:36,480 INFO o.a.j.t.JMeterThread: Thread started: stress 4-22
-2019-12-22 02:46:36,498 INFO o.a.j.t.JMeterThread: Thread started: stress 4-23
-2019-12-22 02:46:36,516 INFO o.a.j.t.JMeterThread: Thread started: stress 4-24
-2019-12-22 02:46:36,537 INFO o.a.j.t.JMeterThread: Thread started: stress 4-25
-2019-12-22 02:46:36,566 INFO o.a.j.t.JMeterThread: Thread started: stress 4-26
-2019-12-22 02:46:36,582 INFO o.a.j.t.JMeterThread: Thread started: stress 4-27
-2019-12-22 02:46:36,598 INFO o.a.j.t.JMeterThread: Thread started: stress 4-28
-2019-12-22 02:46:36,619 INFO o.a.j.t.JMeterThread: Thread started: stress 4-29
-2019-12-22 02:46:36,637 INFO o.a.j.t.JMeterThread: Thread started: stress 4-30
-2019-12-22 02:46:36,661 INFO o.a.j.t.JMeterThread: Thread started: stress 4-31
-2019-12-22 02:46:36,677 INFO o.a.j.t.JMeterThread: Thread started: stress 4-32
-2019-12-22 02:46:36,697 INFO o.a.j.t.JMeterThread: Thread started: stress 4-33
-2019-12-22 02:46:36,717 INFO o.a.j.t.JMeterThread: Thread started: stress 4-34
-2019-12-22 02:46:36,737 INFO o.a.j.t.JMeterThread: Thread started: stress 4-35
-2019-12-22 02:46:36,757 INFO o.a.j.t.JMeterThread: Thread started: stress 4-36
-2019-12-22 02:46:36,777 INFO o.a.j.t.JMeterThread: Thread started: stress 4-37
-2019-12-22 02:46:36,797 INFO o.a.j.t.JMeterThread: Thread started: stress 4-38
-2019-12-22 02:46:36,817 INFO o.a.j.t.JMeterThread: Thread started: stress 4-39
-2019-12-22 02:46:36,836 INFO o.a.j.t.JMeterThread: Thread started: stress 4-40
-2019-12-22 02:46:36,857 INFO o.a.j.t.JMeterThread: Thread started: stress 4-41
-2019-12-22 02:46:36,877 INFO o.a.j.t.JMeterThread: Thread started: stress 4-42
-2019-12-22 02:46:36,897 INFO o.a.j.t.JMeterThread: Thread started: stress 4-43
-2019-12-22 02:46:36,921 INFO o.a.j.t.JMeterThread: Thread started: stress 4-44
-2019-12-22 02:46:36,936 INFO o.a.j.t.JMeterThread: Thread started: stress 4-45
-2019-12-22 02:46:36,970 INFO o.a.j.t.JMeterThread: Thread started: stress 4-46
-2019-12-22 02:46:36,985 INFO o.a.j.t.JMeterThread: Thread started: stress 4-47
-2019-12-22 02:46:37,002 INFO o.a.j.t.JMeterThread: Thread started: stress 4-48
-2019-12-22 02:46:37,020 INFO o.a.j.t.JMeterThread: Thread started: stress 4-49
-2019-12-22 02:46:37,043 INFO o.a.j.t.JMeterThread: Thread started: stress 4-50
-2019-12-22 02:46:37,056 INFO o.a.j.t.JMeterThread: Thread started: stress 4-51
-2019-12-22 02:46:37,076 INFO o.a.j.t.JMeterThread: Thread started: stress 4-52
-2019-12-22 02:46:37,096 INFO o.a.j.t.JMeterThread: Thread started: stress 4-53
-2019-12-22 02:46:37,116 INFO o.a.j.t.JMeterThread: Thread started: stress 4-54
-2019-12-22 02:46:37,136 INFO o.a.j.t.JMeterThread: Thread started: stress 4-55
-2019-12-22 02:46:37,156 INFO o.a.j.t.JMeterThread: Thread started: stress 4-56
-2019-12-22 02:46:37,180 INFO o.a.j.t.JMeterThread: Thread started: stress 4-57
-2019-12-22 02:46:37,205 INFO o.a.j.t.JMeterThread: Thread started: stress 4-58
-2019-12-22 02:46:37,217 INFO o.a.j.t.JMeterThread: Thread started: stress 4-59
-2019-12-22 02:46:37,236 INFO o.a.j.t.JMeterThread: Thread started: stress 4-60
-2019-12-22 02:46:37,257 INFO o.a.j.t.JMeterThread: Thread started: stress 4-61
-2019-12-22 02:46:37,261 INFO o.a.j.t.JMeterThread: Thread is done: apiWhite 1-1
-2019-12-22 02:46:37,262 INFO o.a.j.t.JMeterThread: Thread finished: apiWhite 1-1
-2019-12-22 02:46:37,276 INFO o.a.j.t.JMeterThread: Thread started: stress 4-62
-2019-12-22 02:46:37,297 INFO o.a.j.t.JMeterThread: Thread started: stress 4-63
-2019-12-22 02:46:37,316 INFO o.a.j.t.JMeterThread: Thread started: stress 4-64
-2019-12-22 02:46:37,337 INFO o.a.j.t.JMeterThread: Thread started: stress 4-65
-2019-12-22 02:46:37,357 INFO o.a.j.t.JMeterThread: Thread started: stress 4-66
-2019-12-22 02:46:37,377 INFO o.a.j.t.JMeterThread: Thread started: stress 4-67
-2019-12-22 02:46:37,397 INFO o.a.j.t.JMeterThread: Thread started: stress 4-68
-2019-12-22 02:46:37,416 INFO o.a.j.t.JMeterThread: Thread started: stress 4-69
-2019-12-22 02:46:37,456 INFO o.a.j.t.JMeterThread: Thread started: stress 4-70
-2019-12-22 02:46:37,459 INFO o.a.j.t.JMeterThread: Thread started: stress 4-71
-2019-12-22 02:46:37,476 INFO o.a.j.t.JMeterThread: Thread started: stress 4-72
-2019-12-22 02:46:37,499 INFO o.a.j.t.JMeterThread: Thread started: stress 4-73
-2019-12-22 02:46:37,525 INFO o.a.j.t.JMeterThread: Thread started: stress 4-74
-2019-12-22 02:46:37,539 INFO o.a.j.t.JMeterThread: Thread started: stress 4-75
-2019-12-22 02:46:37,566 INFO o.a.j.t.JMeterThread: Thread started: stress 4-76
-2019-12-22 02:46:37,576 INFO o.a.j.t.JMeterThread: Thread started: stress 4-77
-2019-12-22 02:46:37,597 INFO o.a.j.t.JMeterThread: Thread started: stress 4-78
-2019-12-22 02:46:37,627 INFO o.a.j.t.JMeterThread: Thread started: stress 4-79
-2019-12-22 02:46:37,636 INFO o.a.j.t.JMeterThread: Thread started: stress 4-80
-2019-12-22 02:46:37,658 INFO o.a.j.t.JMeterThread: Thread started: stress 4-81
-2019-12-22 02:46:37,681 INFO o.a.j.t.JMeterThread: Thread started: stress 4-82
-2019-12-22 02:46:37,698 INFO o.a.j.t.JMeterThread: Thread started: stress 4-83
-2019-12-22 02:46:37,719 INFO o.a.j.t.JMeterThread: Thread started: stress 4-84
-2019-12-22 02:46:37,740 INFO o.a.j.t.JMeterThread: Thread started: stress 4-85
-2019-12-22 02:46:37,758 INFO o.a.j.t.JMeterThread: Thread started: stress 4-86
-2019-12-22 02:46:37,780 INFO o.a.j.t.JMeterThread: Thread started: stress 4-87
-2019-12-22 02:46:37,802 INFO o.a.j.t.JMeterThread: Thread started: stress 4-88
-2019-12-22 02:46:37,822 INFO o.a.j.t.JMeterThread: Thread started: stress 4-89
-2019-12-22 02:46:37,838 INFO o.a.j.t.JMeterThread: Thread started: stress 4-90
-2019-12-22 02:46:37,858 INFO o.a.j.t.JMeterThread: Thread started: stress 4-91
-2019-12-22 02:46:37,909 INFO o.a.j.t.JMeterThread: Thread started: stress 4-92
-2019-12-22 02:46:37,917 INFO o.a.j.t.JMeterThread: Thread started: stress 4-94
-2019-12-22 02:46:37,938 INFO o.a.j.t.JMeterThread: Thread started: stress 4-93
-2019-12-22 02:46:37,942 INFO o.a.j.t.JMeterThread: Thread started: stress 4-95
-2019-12-22 02:46:37,959 INFO o.a.j.t.JMeterThread: Thread started: stress 4-96
-2019-12-22 02:46:37,978 INFO o.a.j.t.JMeterThread: Thread started: stress 4-97
-2019-12-22 02:46:37,995 INFO o.a.j.t.JMeterThread: Thread started: stress 4-98
-2019-12-22 02:46:38,017 INFO o.a.j.t.JMeterThread: Thread started: stress 4-99
-2019-12-22 02:46:38,036 INFO o.a.j.t.JMeterThread: Thread started: stress 4-100
-2019-12-22 02:46:38,058 INFO o.a.j.t.JMeterThread: Thread is done: intergraRegre 3-1
-2019-12-22 02:46:38,058 INFO o.a.j.t.JMeterThread: Thread finished: intergraRegre 3-1
-2019-12-22 02:46:38,084 INFO o.a.j.t.JMeterThread: Thread is done: funcBlac 2-1
-2019-12-22 02:46:38,085 INFO o.a.j.t.JMeterThread: Thread finished: funcBlac 2-1
-2019-12-22 02:46:38,253 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-19
-2019-12-22 02:46:38,253 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-19
-2019-12-22 02:46:38,253 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-16
-2019-12-22 02:46:38,254 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-16
-2019-12-22 02:46:38,253 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-10
-2019-12-22 02:46:38,255 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-10
-2019-12-22 02:46:38,255 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-13
-2019-12-22 02:46:38,255 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-13
-2019-12-22 02:46:38,256 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-20
-2019-12-22 02:46:38,257 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-20
-2019-12-22 02:46:38,257 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-2
-2019-12-22 02:46:38,261 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-2
-2019-12-22 02:46:38,278 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-8
-2019-12-22 02:46:38,278 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-8
-2019-12-22 02:46:38,281 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-18
-2019-12-22 02:46:38,282 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-18
-2019-12-22 02:46:38,290 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-22
-2019-12-22 02:46:38,291 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-22
-2019-12-22 02:46:38,333 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-12
-2019-12-22 02:46:38,333 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-12
-2019-12-22 02:46:38,341 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-7
-2019-12-22 02:46:38,341 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-21
-2019-12-22 02:46:38,341 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-14
-2019-12-22 02:46:38,342 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-21
-2019-12-22 02:46:38,342 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-7
-2019-12-22 02:46:38,342 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-14
-2019-12-22 02:46:38,363 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-17
-2019-12-22 02:46:38,363 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-17
-2019-12-22 02:46:38,369 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-15
-2019-12-22 02:46:38,370 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-15
-2019-12-22 02:46:38,382 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-3
-2019-12-22 02:46:38,382 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-24
-2019-12-22 02:46:38,382 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-3
-2019-12-22 02:46:38,382 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-24
-2019-12-22 02:46:38,406 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-23
-2019-12-22 02:46:38,406 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-5
-2019-12-22 02:46:38,407 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-5
-2019-12-22 02:46:38,407 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-23
-2019-12-22 02:46:38,421 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-27
-2019-12-22 02:46:38,421 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-26
-2019-12-22 02:46:38,421 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-27
-2019-12-22 02:46:38,421 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-26
-2019-12-22 02:46:38,430 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-1
-2019-12-22 02:46:38,430 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-1
-2019-12-22 02:46:38,432 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-11
-2019-12-22 02:46:38,433 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-11
-2019-12-22 02:46:38,464 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-9
-2019-12-22 02:46:38,464 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-6
-2019-12-22 02:46:38,464 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-9
-2019-12-22 02:46:38,465 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-6
-2019-12-22 02:46:38,466 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-4
-2019-12-22 02:46:38,467 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-4
-2019-12-22 02:46:38,470 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-31
-2019-12-22 02:46:38,471 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-25
-2019-12-22 02:46:38,471 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-31
-2019-12-22 02:46:38,471 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-25
-2019-12-22 02:46:38,472 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-28
-2019-12-22 02:46:38,473 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-28
-2019-12-22 02:46:38,488 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-29
-2019-12-22 02:46:38,488 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-29
-2019-12-22 02:46:38,503 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-30
-2019-12-22 02:46:38,504 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-30
-2019-12-22 02:46:38,519 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-32
-2019-12-22 02:46:38,519 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-32
-2019-12-22 02:46:38,537 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-33
-2019-12-22 02:46:38,538 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-33
-2019-12-22 02:46:38,567 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-34
-2019-12-22 02:46:38,567 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-34
-2019-12-22 02:46:38,616 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-38
-2019-12-22 02:46:38,616 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-35
-2019-12-22 02:46:38,616 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-36
-2019-12-22 02:46:38,617 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-38
-2019-12-22 02:46:38,617 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-35
-2019-12-22 02:46:38,617 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-36
-2019-12-22 02:46:38,696 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-40
-2019-12-22 02:46:38,700 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-40
-2019-12-22 02:46:38,776 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-43
-2019-12-22 02:46:38,776 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-43
-2019-12-22 02:46:38,778 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-44
-2019-12-22 02:46:38,778 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-44
-2019-12-22 02:46:38,802 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-39
-2019-12-22 02:46:38,802 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-41
-2019-12-22 02:46:38,802 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-39
-2019-12-22 02:46:38,803 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-42
-2019-12-22 02:46:38,803 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-42
-2019-12-22 02:46:38,803 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-41
-2019-12-22 02:46:38,803 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-37
-2019-12-22 02:46:38,804 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-37
-2019-12-22 02:46:38,835 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-45
-2019-12-22 02:46:38,835 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-45
-2019-12-22 02:46:38,853 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-48
-2019-12-22 02:46:38,853 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-48
-2019-12-22 02:46:38,866 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-49
-2019-12-22 02:46:38,866 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-49
-2019-12-22 02:46:38,872 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-46
-2019-12-22 02:46:38,872 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-47
-2019-12-22 02:46:38,872 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-46
-2019-12-22 02:46:38,872 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-47
-2019-12-22 02:46:38,942 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-52
-2019-12-22 02:46:38,942 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-50
-2019-12-22 02:46:38,943 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-52
-2019-12-22 02:46:38,943 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-50
-2019-12-22 02:46:38,969 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-54
-2019-12-22 02:46:38,969 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-54
-2019-12-22 02:46:38,975 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-55
-2019-12-22 02:46:38,975 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-55
-2019-12-22 02:46:38,984 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-51
-2019-12-22 02:46:38,984 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-51
-2019-12-22 02:46:39,001 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-56
-2019-12-22 02:46:39,001 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-56
-2019-12-22 02:46:39,074 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-59
-2019-12-22 02:46:39,075 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-59
-2019-12-22 02:46:39,099 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-53
-2019-12-22 02:46:39,099 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-57
-2019-12-22 02:46:39,099 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-61
-2019-12-22 02:46:39,099 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-53
-2019-12-22 02:46:39,100 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-61
-2019-12-22 02:46:39,100 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-57
-2019-12-22 02:46:39,128 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-58
-2019-12-22 02:46:39,128 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-63
-2019-12-22 02:46:39,128 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-58
-2019-12-22 02:46:39,129 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-63
-2019-12-22 02:46:39,139 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-60
-2019-12-22 02:46:39,140 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-60
-2019-12-22 02:46:39,176 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-67
-2019-12-22 02:46:39,176 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-65
-2019-12-22 02:46:39,176 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-65
-2019-12-22 02:46:39,176 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-67
-2019-12-22 02:46:39,224 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-66
-2019-12-22 02:46:39,224 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-68
-2019-12-22 02:46:39,224 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-66
-2019-12-22 02:46:39,224 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-68
-2019-12-22 02:46:39,226 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-64
-2019-12-22 02:46:39,226 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-64
-2019-12-22 02:46:39,257 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-62
-2019-12-22 02:46:39,257 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-62
-2019-12-22 02:46:39,276 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-71
-2019-12-22 02:46:39,276 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-69
-2019-12-22 02:46:39,277 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-69
-2019-12-22 02:46:39,277 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-71
-2019-12-22 02:46:39,380 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-73
-2019-12-22 02:46:39,380 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-70
-2019-12-22 02:46:39,380 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-72
-2019-12-22 02:46:39,380 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-73
-2019-12-22 02:46:39,380 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-72
-2019-12-22 02:46:39,380 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-70
-2019-12-22 02:46:39,406 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-78
-2019-12-22 02:46:39,407 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-78
-2019-12-22 02:46:39,407 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-75
-2019-12-22 02:46:39,407 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-75
-2019-12-22 02:46:39,415 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-80
-2019-12-22 02:46:39,415 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-80
-2019-12-22 02:46:39,425 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-77
-2019-12-22 02:46:39,425 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-77
-2019-12-22 02:46:39,445 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-74
-2019-12-22 02:46:39,445 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-74
-2019-12-22 02:46:39,483 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-81
-2019-12-22 02:46:39,483 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-82
-2019-12-22 02:46:39,484 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-81
-2019-12-22 02:46:39,484 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-82
-2019-12-22 02:46:39,495 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-76
-2019-12-22 02:46:39,495 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-76
-2019-12-22 02:46:39,536 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-79
-2019-12-22 02:46:39,536 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-79
-2019-12-22 02:46:39,573 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-84
-2019-12-22 02:46:39,574 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-84
-2019-12-22 02:46:39,650 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-86
-2019-12-22 02:46:39,650 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-86
-2019-12-22 02:46:39,685 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-85
-2019-12-22 02:46:39,686 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-90
-2019-12-22 02:46:39,686 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-87
-2019-12-22 02:46:39,686 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-85
-2019-12-22 02:46:39,686 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-90
-2019-12-22 02:46:39,686 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-87
-2019-12-22 02:46:39,686 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-91
-2019-12-22 02:46:39,687 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-91
-2019-12-22 02:46:39,692 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-88
-2019-12-22 02:46:39,692 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-88
-2019-12-22 02:46:39,702 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-89
-2019-12-22 02:46:39,702 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-89
-2019-12-22 02:46:39,709 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-92
-2019-12-22 02:46:39,710 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-92
-2019-12-22 02:46:39,714 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-94
-2019-12-22 02:46:39,715 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-94
-2019-12-22 02:46:39,759 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-83
-2019-12-22 02:46:39,759 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-83
-2019-12-22 02:46:39,777 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-97
-2019-12-22 02:46:39,777 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-97
-2019-12-22 02:46:39,788 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-93
-2019-12-22 02:46:39,789 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-95
-2019-12-22 02:46:39,789 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-93
-2019-12-22 02:46:39,789 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-95
-2019-12-22 02:46:39,824 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-98
-2019-12-22 02:46:39,825 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-98
-2019-12-22 02:46:39,917 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-96
-2019-12-22 02:46:39,918 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-96
-2019-12-22 02:46:39,931 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-99
-2019-12-22 02:46:39,931 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-99
-2019-12-22 02:46:39,968 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-100
-2019-12-22 02:46:39,968 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-100
-2019-12-22 02:46:39,969 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
-2019-12-22 02:46:40,062 INFO o.a.j.e.StandardJMeterEngine: No enabled thread groups found
-2019-12-22 02:46:40,062 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2019-12-22 02:46:40,063 INFO o.a.j.r.Summariser: summary =    206 in 00:00:04 =   51.1/s Avg:   946 Min:   315 Max:  1258 Err:     1 (0.49%)
+2019-12-22 02:51:53,792 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2019-12-22 02:51:53,813 INFO o.a.j.JMeter: Loading user properties from: /home/kate/apache-jmeter-5.1.1/bin/user.properties
+2019-12-22 02:51:53,814 INFO o.a.j.JMeter: Loading system properties from: /home/kate/apache-jmeter-5.1.1/bin/system.properties
+2019-12-22 02:51:53,822 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2019-12-22 02:51:53,822 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2019-12-22 02:51:53,822 INFO o.a.j.JMeter: java.version=1.8.0_232
+2019-12-22 02:51:53,822 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2019-12-22 02:51:53,822 INFO o.a.j.JMeter: os.name=Linux
+2019-12-22 02:51:53,822 INFO o.a.j.JMeter: os.arch=amd64
+2019-12-22 02:51:53,822 INFO o.a.j.JMeter: os.version=4.15.0-72-generic
+2019-12-22 02:51:53,823 INFO o.a.j.JMeter: file.encoding=UTF-8
+2019-12-22 02:51:53,823 INFO o.a.j.JMeter: java.awt.headless=null
+2019-12-22 02:51:53,823 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-12-22 02:51:53,823 INFO o.a.j.JMeter: Available Processors =4
+2019-12-22 02:51:53,827 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-12-22 02:51:53,828 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2019-12-22 02:51:53,828 INFO o.a.j.JMeter: JMeterHome=/home/kate/apache-jmeter-5.1.1
+2019-12-22 02:51:53,828 INFO o.a.j.JMeter: user.dir  =/home/kate/git
+2019-12-22 02:51:53,829 INFO o.a.j.JMeter: PWD       =/home/kate/git
+2019-12-22 02:51:53,829 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: k FullName: k
+2019-12-22 02:51:53,834 INFO o.a.j.s.FileServer: Default base='/home/kate/git'
+2019-12-22 02:51:53,840 INFO o.a.j.s.FileServer: Set new base='/home/kate/git'
+2019-12-22 02:51:54,039 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-12-22 02:51:54,053 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-12-22 02:51:54,059 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-12-22 02:51:54,068 INFO o.a.j.s.SaveService: Loading file: allwebtest.jmx
+2019-12-22 02:51:54,129 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-12-22 02:51:54,129 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-12-22 02:51:54,129 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-12-22 02:51:54,129 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-12-22 02:51:54,129 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-12-22 02:51:54,129 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-12-22 02:51:54,456 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2019-12-22 02:51:54,457 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/kate/apache-jmeter-5.1.1/bin/proxyserver.jks
+2019-12-22 02:51:54,479 INFO o.a.j.JMeter: Creating summariser <summary>
+2019-12-22 02:51:54,486 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-12-22 02:51:54,487 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-12-22 02:51:54,487 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-12-22 02:51:54,497 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-12-22 02:51:54,497 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-12-22 02:51:55,047 INFO o.a.j.JMeter: Running test (1576954315047)
+2019-12-22 02:51:55,050 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2019-12-22 02:51:55,050 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : apiWhite 
+2019-12-22 02:51:55,050 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group apiWhite.
+2019-12-22 02:51:55,051 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-12-22 02:51:55,051 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2019-12-22 02:51:55,059 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-12-22 02:51:55,059 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 2 : funcBlac 
+2019-12-22 02:51:55,059 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group funcBlac.
+2019-12-22 02:51:55,059 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-12-22 02:51:55,059 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2019-12-22 02:51:55,061 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2019-12-22 02:51:55,061 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 3 : intergraRegre 
+2019-12-22 02:51:55,061 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group intergraRegre.
+2019-12-22 02:51:55,061 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-12-22 02:51:55,061 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2019-12-22 02:51:55,065 INFO o.a.j.t.JMeterThread: Thread started: funcBlac 2-1
+2019-12-22 02:51:55,067 INFO o.a.j.t.JMeterThread: Thread started: apiWhite 1-1
+2019-12-22 02:51:55,068 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2019-12-22 02:51:55,068 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 4 : stress 
+2019-12-22 02:51:55,069 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group stress.
+2019-12-22 02:51:55,069 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-12-22 02:51:55,069 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=100 ramp-up=2 delayedStart=false
+2019-12-22 02:51:55,076 INFO o.a.j.t.JMeterThread: Thread started: stress 4-1
+2019-12-22 02:51:55,092 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-12-22 02:51:55,093 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-12-22 02:51:55,093 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-12-22 02:51:55,093 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-12-22 02:51:55,097 INFO o.a.j.t.JMeterThread: Thread started: intergraRegre 3-1
+2019-12-22 02:51:55,107 INFO o.a.j.t.JMeterThread: Thread started: stress 4-2
+2019-12-22 02:51:55,120 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = k
+2019-12-22 02:51:55,124 INFO o.a.j.t.JMeterThread: Thread started: stress 4-3
+2019-12-22 02:51:55,134 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-12-22 02:51:55,143 INFO o.a.j.t.JMeterThread: Thread started: stress 4-4
+2019-12-22 02:51:55,157 INFO o.a.j.t.JMeterThread: Thread started: stress 4-5
+2019-12-22 02:51:55,172 INFO o.a.j.t.JMeterThread: Thread started: stress 4-6
+2019-12-22 02:51:55,190 INFO o.a.j.t.JMeterThread: Thread started: stress 4-7
+2019-12-22 02:51:55,210 INFO o.a.j.t.JMeterThread: Thread started: stress 4-8
+2019-12-22 02:51:55,236 INFO o.a.j.t.JMeterThread: Thread started: stress 4-9
+2019-12-22 02:51:55,255 INFO o.a.j.t.JMeterThread: Thread started: stress 4-10
+2019-12-22 02:51:55,271 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2019-12-22 02:51:55,271 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2019-12-22 02:51:55,284 INFO o.a.j.t.JMeterThread: Thread started: stress 4-11
+2019-12-22 02:51:55,291 INFO o.a.j.t.JMeterThread: Thread started: stress 4-12
+2019-12-22 02:51:55,317 INFO o.a.j.t.JMeterThread: Thread started: stress 4-13
+2019-12-22 02:51:55,338 INFO o.a.j.t.JMeterThread: Thread started: stress 4-14
+2019-12-22 02:51:55,352 INFO o.a.j.t.JMeterThread: Thread started: stress 4-15
+2019-12-22 02:51:55,370 INFO o.a.j.t.JMeterThread: Thread started: stress 4-16
+2019-12-22 02:51:55,385 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2019-12-22 02:51:55,392 INFO o.a.j.t.JMeterThread: Thread started: stress 4-17
+2019-12-22 02:51:55,395 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2019-12-22 02:51:55,395 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2019-12-22 02:51:55,413 INFO o.a.j.t.JMeterThread: Thread started: stress 4-18
+2019-12-22 02:51:55,434 INFO o.a.j.t.JMeterThread: Thread started: stress 4-19
+2019-12-22 02:51:55,452 INFO o.a.j.t.JMeterThread: Thread started: stress 4-20
+2019-12-22 02:51:55,471 INFO o.a.j.t.JMeterThread: Thread started: stress 4-21
+2019-12-22 02:51:55,475 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2019-12-22 02:51:55,480 INFO o.a.j.u.SSLManager: KeyStore created OK
+2019-12-22 02:51:55,480 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2019-12-22 02:51:55,498 INFO o.a.j.t.JMeterThread: Thread started: stress 4-22
+2019-12-22 02:51:55,512 INFO o.a.j.t.JMeterThread: Thread started: stress 4-23
+2019-12-22 02:51:55,532 INFO o.a.j.t.JMeterThread: Thread started: stress 4-24
+2019-12-22 02:51:55,554 INFO o.a.j.t.JMeterThread: Thread started: stress 4-25
+2019-12-22 02:51:55,583 INFO o.a.j.t.JMeterThread: Thread started: stress 4-26
+2019-12-22 02:51:55,597 INFO o.a.j.t.JMeterThread: Thread started: stress 4-27
+2019-12-22 02:51:55,612 INFO o.a.j.t.JMeterThread: Thread started: stress 4-28
+2019-12-22 02:51:55,632 INFO o.a.j.t.JMeterThread: Thread started: stress 4-29
+2019-12-22 02:51:55,651 INFO o.a.j.t.JMeterThread: Thread started: stress 4-30
+2019-12-22 02:51:55,671 INFO o.a.j.t.JMeterThread: Thread started: stress 4-31
+2019-12-22 02:51:55,690 INFO o.a.j.t.JMeterThread: Thread started: stress 4-32
+2019-12-22 02:51:55,712 INFO o.a.j.t.JMeterThread: Thread started: stress 4-33
+2019-12-22 02:51:55,731 INFO o.a.j.t.JMeterThread: Thread started: stress 4-34
+2019-12-22 02:51:55,751 INFO o.a.j.t.JMeterThread: Thread started: stress 4-35
+2019-12-22 02:51:55,771 INFO o.a.j.t.JMeterThread: Thread started: stress 4-36
+2019-12-22 02:51:55,791 INFO o.a.j.t.JMeterThread: Thread started: stress 4-37
+2019-12-22 02:51:55,812 INFO o.a.j.t.JMeterThread: Thread started: stress 4-38
+2019-12-22 02:51:55,832 INFO o.a.j.t.JMeterThread: Thread started: stress 4-39
+2019-12-22 02:51:55,851 INFO o.a.j.t.JMeterThread: Thread started: stress 4-40
+2019-12-22 02:51:55,870 INFO o.a.j.t.JMeterThread: Thread started: stress 4-41
+2019-12-22 02:51:55,893 INFO o.a.j.t.JMeterThread: Thread started: stress 4-42
+2019-12-22 02:51:55,914 INFO o.a.j.t.JMeterThread: Thread started: stress 4-43
+2019-12-22 02:51:55,931 INFO o.a.j.t.JMeterThread: Thread started: stress 4-44
+2019-12-22 02:51:55,952 INFO o.a.j.t.JMeterThread: Thread started: stress 4-45
+2019-12-22 02:51:55,975 INFO o.a.j.t.JMeterThread: Thread started: stress 4-46
+2019-12-22 02:51:55,992 INFO o.a.j.t.JMeterThread: Thread started: stress 4-47
+2019-12-22 02:51:56,011 INFO o.a.j.t.JMeterThread: Thread started: stress 4-48
+2019-12-22 02:51:56,031 INFO o.a.j.t.JMeterThread: Thread started: stress 4-49
+2019-12-22 02:51:56,052 INFO o.a.j.t.JMeterThread: Thread started: stress 4-50
+2019-12-22 02:51:56,073 INFO o.a.j.t.JMeterThread: Thread started: stress 4-51
+2019-12-22 02:51:56,095 INFO o.a.j.t.JMeterThread: Thread started: stress 4-52
+2019-12-22 02:51:56,112 INFO o.a.j.t.JMeterThread: Thread started: stress 4-53
+2019-12-22 02:51:56,131 INFO o.a.j.t.JMeterThread: Thread started: stress 4-54
+2019-12-22 02:51:56,152 INFO o.a.j.t.JMeterThread: Thread started: stress 4-55
+2019-12-22 02:51:56,171 INFO o.a.j.t.JMeterThread: Thread started: stress 4-56
+2019-12-22 02:51:56,192 INFO o.a.j.t.JMeterThread: Thread started: stress 4-57
+2019-12-22 02:51:56,211 INFO o.a.j.t.JMeterThread: Thread started: stress 4-58
+2019-12-22 02:51:56,232 INFO o.a.j.t.JMeterThread: Thread started: stress 4-59
+2019-12-22 02:51:56,253 INFO o.a.j.t.JMeterThread: Thread started: stress 4-60
+2019-12-22 02:51:56,271 INFO o.a.j.t.JMeterThread: Thread started: stress 4-61
+2019-12-22 02:51:56,281 INFO o.a.j.t.JMeterThread: Thread is done: apiWhite 1-1
+2019-12-22 02:51:56,282 INFO o.a.j.t.JMeterThread: Thread finished: apiWhite 1-1
+2019-12-22 02:51:56,290 INFO o.a.j.t.JMeterThread: Thread started: stress 4-62
+2019-12-22 02:51:56,311 INFO o.a.j.t.JMeterThread: Thread started: stress 4-63
+2019-12-22 02:51:56,331 INFO o.a.j.t.JMeterThread: Thread started: stress 4-64
+2019-12-22 02:51:56,352 INFO o.a.j.t.JMeterThread: Thread started: stress 4-65
+2019-12-22 02:51:56,375 INFO o.a.j.t.JMeterThread: Thread started: stress 4-66
+2019-12-22 02:51:56,400 INFO o.a.j.t.JMeterThread: Thread started: stress 4-67
+2019-12-22 02:51:56,411 INFO o.a.j.t.JMeterThread: Thread started: stress 4-68
+2019-12-22 02:51:56,430 INFO o.a.j.t.JMeterThread: Thread started: stress 4-69
+2019-12-22 02:51:56,451 INFO o.a.j.t.JMeterThread: Thread started: stress 4-70
+2019-12-22 02:51:56,470 INFO o.a.j.t.JMeterThread: Thread started: stress 4-71
+2019-12-22 02:51:56,492 INFO o.a.j.t.JMeterThread: Thread started: stress 4-72
+2019-12-22 02:51:56,515 INFO o.a.j.t.JMeterThread: Thread started: stress 4-73
+2019-12-22 02:51:56,531 INFO o.a.j.t.JMeterThread: Thread started: stress 4-74
+2019-12-22 02:51:56,552 INFO o.a.j.t.JMeterThread: Thread started: stress 4-75
+2019-12-22 02:51:56,570 INFO o.a.j.t.JMeterThread: Thread started: stress 4-76
+2019-12-22 02:51:56,591 INFO o.a.j.t.JMeterThread: Thread started: stress 4-77
+2019-12-22 02:51:56,613 INFO o.a.j.t.JMeterThread: Thread started: stress 4-78
+2019-12-22 02:51:56,631 INFO o.a.j.t.JMeterThread: Thread started: stress 4-79
+2019-12-22 02:51:56,651 INFO o.a.j.t.JMeterThread: Thread started: stress 4-80
+2019-12-22 02:51:56,671 INFO o.a.j.t.JMeterThread: Thread started: stress 4-81
+2019-12-22 02:51:56,692 INFO o.a.j.t.JMeterThread: Thread started: stress 4-82
+2019-12-22 02:51:56,711 INFO o.a.j.t.JMeterThread: Thread started: stress 4-83
+2019-12-22 02:51:56,733 INFO o.a.j.t.JMeterThread: Thread started: stress 4-84
+2019-12-22 02:51:56,753 INFO o.a.j.t.JMeterThread: Thread started: stress 4-85
+2019-12-22 02:51:56,782 INFO o.a.j.t.JMeterThread: Thread started: stress 4-86
+2019-12-22 02:51:56,800 INFO o.a.j.t.JMeterThread: Thread started: stress 4-87
+2019-12-22 02:51:56,814 INFO o.a.j.t.JMeterThread: Thread started: stress 4-88
+2019-12-22 02:51:56,830 INFO o.a.j.t.JMeterThread: Thread started: stress 4-89
+2019-12-22 02:51:56,850 INFO o.a.j.t.JMeterThread: Thread started: stress 4-90
+2019-12-22 02:51:56,870 INFO o.a.j.t.JMeterThread: Thread started: stress 4-91
+2019-12-22 02:51:56,890 INFO o.a.j.t.JMeterThread: Thread started: stress 4-92
+2019-12-22 02:51:56,914 INFO o.a.j.t.JMeterThread: Thread started: stress 4-93
+2019-12-22 02:51:56,930 INFO o.a.j.t.JMeterThread: Thread started: stress 4-94
+2019-12-22 02:51:56,950 INFO o.a.j.t.JMeterThread: Thread started: stress 4-95
+2019-12-22 02:51:56,969 INFO o.a.j.t.JMeterThread: Thread started: stress 4-96
+2019-12-22 02:51:56,990 INFO o.a.j.t.JMeterThread: Thread started: stress 4-97
+2019-12-22 02:51:57,010 INFO o.a.j.t.JMeterThread: Thread started: stress 4-98
+2019-12-22 02:51:57,030 INFO o.a.j.t.JMeterThread: Thread started: stress 4-99
+2019-12-22 02:51:57,065 INFO o.a.j.t.JMeterThread: Thread started: stress 4-100
+2019-12-22 02:51:57,285 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-14
+2019-12-22 02:51:57,285 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-14
+2019-12-22 02:51:57,345 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-29
+2019-12-22 02:51:57,346 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-29
+2019-12-22 02:51:57,356 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-26
+2019-12-22 02:51:57,356 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-26
+2019-12-22 02:51:57,377 INFO o.a.j.t.JMeterThread: Thread is done: intergraRegre 3-1
+2019-12-22 02:51:57,377 INFO o.a.j.t.JMeterThread: Thread finished: intergraRegre 3-1
+2019-12-22 02:51:57,455 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-2
+2019-12-22 02:51:57,456 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-2
+2019-12-22 02:51:57,458 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-23
+2019-12-22 02:51:57,458 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-23
+2019-12-22 02:51:57,486 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-21
+2019-12-22 02:51:57,487 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-21
+2019-12-22 02:51:57,516 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-18
+2019-12-22 02:51:57,516 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-20
+2019-12-22 02:51:57,517 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-20
+2019-12-22 02:51:57,517 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-18
+2019-12-22 02:51:57,538 INFO o.a.j.t.JMeterThread: Thread is done: funcBlac 2-1
+2019-12-22 02:51:57,538 INFO o.a.j.t.JMeterThread: Thread finished: funcBlac 2-1
+2019-12-22 02:51:57,824 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-1
+2019-12-22 02:51:57,824 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-12
+2019-12-22 02:51:57,825 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-1
+2019-12-22 02:51:57,825 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-12
+2019-12-22 02:51:57,825 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-6
+2019-12-22 02:51:57,825 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-6
+2019-12-22 02:51:57,827 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-22
+2019-12-22 02:51:57,827 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-22
+2019-12-22 02:51:57,828 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-9
+2019-12-22 02:51:57,828 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-10
+2019-12-22 02:51:57,828 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-9
+2019-12-22 02:51:57,828 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-10
+2019-12-22 02:51:57,829 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-27
+2019-12-22 02:51:57,829 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-27
+2019-12-22 02:51:57,829 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-17
+2019-12-22 02:51:57,830 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-17
+2019-12-22 02:51:57,831 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-11
+2019-12-22 02:51:57,831 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-28
+2019-12-22 02:51:57,831 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-25
+2019-12-22 02:51:57,831 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-11
+2019-12-22 02:51:57,831 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-28
+2019-12-22 02:51:57,832 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-25
+2019-12-22 02:51:57,834 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-13
+2019-12-22 02:51:57,835 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-13
+2019-12-22 02:51:57,837 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-16
+2019-12-22 02:51:57,839 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-33
+2019-12-22 02:51:57,839 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-31
+2019-12-22 02:51:57,839 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-31
+2019-12-22 02:51:57,842 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-19
+2019-12-22 02:51:57,842 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-19
+2019-12-22 02:51:57,827 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-24
+2019-12-22 02:51:57,843 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-24
+2019-12-22 02:51:57,844 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-16
+2019-12-22 02:51:57,837 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-5
+2019-12-22 02:51:57,846 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-5
+2019-12-22 02:51:57,846 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-3
+2019-12-22 02:51:57,837 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-30
+2019-12-22 02:51:57,847 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-35
+2019-12-22 02:51:57,848 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-35
+2019-12-22 02:51:57,848 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-30
+2019-12-22 02:51:57,839 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-33
+2019-12-22 02:51:57,849 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-3
+2019-12-22 02:51:57,860 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-41
+2019-12-22 02:51:57,861 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-37
+2019-12-22 02:51:57,861 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-41
+2019-12-22 02:51:57,862 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-15
+2019-12-22 02:51:57,863 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-15
+2019-12-22 02:51:57,864 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-36
+2019-12-22 02:51:57,864 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-36
+2019-12-22 02:51:57,861 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-37
+2019-12-22 02:51:57,872 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-4
+2019-12-22 02:51:57,872 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-4
+2019-12-22 02:51:57,874 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-8
+2019-12-22 02:51:57,875 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-8
+2019-12-22 02:51:57,875 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-34
+2019-12-22 02:51:57,875 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-34
+2019-12-22 02:51:57,877 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-7
+2019-12-22 02:51:57,877 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-7
+2019-12-22 02:51:57,880 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-39
+2019-12-22 02:51:57,881 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-39
+2019-12-22 02:51:57,912 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-38
+2019-12-22 02:51:57,913 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-38
+2019-12-22 02:51:57,919 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-40
+2019-12-22 02:51:57,919 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-32
+2019-12-22 02:51:57,919 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-40
+2019-12-22 02:51:57,919 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-32
+2019-12-22 02:51:58,132 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-46
+2019-12-22 02:51:58,132 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-46
+2019-12-22 02:51:58,207 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-54
+2019-12-22 02:51:58,207 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-54
+2019-12-22 02:51:58,209 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-53
+2019-12-22 02:51:58,209 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-50
+2019-12-22 02:51:58,210 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-53
+2019-12-22 02:51:58,214 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-47
+2019-12-22 02:51:58,214 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-47
+2019-12-22 02:51:58,217 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-50
+2019-12-22 02:51:58,217 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-55
+2019-12-22 02:51:58,218 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-55
+2019-12-22 02:51:58,218 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-43
+2019-12-22 02:51:58,219 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-43
+2019-12-22 02:51:58,224 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-48
+2019-12-22 02:51:58,225 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-48
+2019-12-22 02:51:58,226 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-51
+2019-12-22 02:51:58,226 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-51
+2019-12-22 02:51:58,230 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-52
+2019-12-22 02:51:58,231 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-52
+2019-12-22 02:51:58,233 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-44
+2019-12-22 02:51:58,233 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-44
+2019-12-22 02:51:58,234 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-49
+2019-12-22 02:51:58,235 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-49
+2019-12-22 02:51:58,236 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-45
+2019-12-22 02:51:58,237 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-45
+2019-12-22 02:51:58,238 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-56
+2019-12-22 02:51:58,239 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-56
+2019-12-22 02:51:58,240 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-42
+2019-12-22 02:51:58,240 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-42
+2019-12-22 02:51:58,444 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-62
+2019-12-22 02:51:58,444 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-59
+2019-12-22 02:51:58,444 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-62
+2019-12-22 02:51:58,444 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-59
+2019-12-22 02:51:58,445 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-58
+2019-12-22 02:51:58,445 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-58
+2019-12-22 02:51:58,449 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-60
+2019-12-22 02:51:58,449 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-60
+2019-12-22 02:51:58,465 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-61
+2019-12-22 02:51:58,465 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-61
+2019-12-22 02:51:58,465 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-63
+2019-12-22 02:51:58,465 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-63
+2019-12-22 02:51:58,466 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-69
+2019-12-22 02:51:58,466 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-69
+2019-12-22 02:51:58,471 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-64
+2019-12-22 02:51:58,471 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-64
+2019-12-22 02:51:58,471 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-65
+2019-12-22 02:51:58,472 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-65
+2019-12-22 02:51:58,475 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-70
+2019-12-22 02:51:58,475 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-70
+2019-12-22 02:51:58,482 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-66
+2019-12-22 02:51:58,482 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-66
+2019-12-22 02:51:58,483 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-67
+2019-12-22 02:51:58,483 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-67
+2019-12-22 02:51:58,495 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-72
+2019-12-22 02:51:58,495 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-72
+2019-12-22 02:51:58,499 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-57
+2019-12-22 02:51:58,500 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-57
+2019-12-22 02:51:58,500 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-68
+2019-12-22 02:51:58,500 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-68
+2019-12-22 02:51:58,585 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-71
+2019-12-22 02:51:58,585 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-71
+2019-12-22 02:51:58,809 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-86
+2019-12-22 02:51:58,809 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-86
+2019-12-22 02:51:58,827 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-82
+2019-12-22 02:51:58,827 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-77
+2019-12-22 02:51:58,827 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-82
+2019-12-22 02:51:58,827 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-77
+2019-12-22 02:51:58,831 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-78
+2019-12-22 02:51:58,832 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-78
+2019-12-22 02:51:58,832 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-84
+2019-12-22 02:51:58,832 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-84
+2019-12-22 02:51:58,833 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-73
+2019-12-22 02:51:58,833 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-73
+2019-12-22 02:51:58,860 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-80
+2019-12-22 02:51:58,860 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-76
+2019-12-22 02:51:58,860 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-80
+2019-12-22 02:51:58,860 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-76
+2019-12-22 02:51:58,864 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-75
+2019-12-22 02:51:58,864 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-75
+2019-12-22 02:51:58,864 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-83
+2019-12-22 02:51:58,865 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-83
+2019-12-22 02:51:58,879 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-81
+2019-12-22 02:51:58,879 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-79
+2019-12-22 02:51:58,879 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-85
+2019-12-22 02:51:58,879 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-81
+2019-12-22 02:51:58,879 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-85
+2019-12-22 02:51:58,881 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-79
+2019-12-22 02:51:58,896 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-74
+2019-12-22 02:51:58,896 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-87
+2019-12-22 02:51:58,896 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-74
+2019-12-22 02:51:58,897 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-87
+2019-12-22 02:51:59,034 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-88
+2019-12-22 02:51:59,035 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-88
+2019-12-22 02:51:59,103 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-89
+2019-12-22 02:51:59,104 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-89
+2019-12-22 02:51:59,107 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-91
+2019-12-22 02:51:59,108 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-91
+2019-12-22 02:51:59,126 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-92
+2019-12-22 02:51:59,127 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-92
+2019-12-22 02:51:59,130 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-94
+2019-12-22 02:51:59,131 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-94
+2019-12-22 02:51:59,133 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-98
+2019-12-22 02:51:59,134 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-98
+2019-12-22 02:51:59,181 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-99
+2019-12-22 02:51:59,181 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-99
+2019-12-22 02:51:59,214 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-97
+2019-12-22 02:51:59,215 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-97
+2019-12-22 02:51:59,215 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-93
+2019-12-22 02:51:59,215 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-93
+2019-12-22 02:51:59,219 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-95
+2019-12-22 02:51:59,219 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-95
+2019-12-22 02:51:59,220 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-96
+2019-12-22 02:51:59,221 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-96
+2019-12-22 02:51:59,227 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-100
+2019-12-22 02:51:59,227 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-100
+2019-12-22 02:51:59,234 INFO o.a.j.t.JMeterThread: Thread is done: stress 4-90
+2019-12-22 02:51:59,235 INFO o.a.j.t.JMeterThread: Thread finished: stress 4-90
+2019-12-22 02:51:59,236 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2019-12-22 02:51:59,313 INFO o.a.j.e.StandardJMeterEngine: No enabled thread groups found
+2019-12-22 02:51:59,313 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-12-22 02:51:59,314 INFO o.a.j.r.Summariser: summary =    206 in 00:00:04 =   48.3/s Avg:  1099 Min:   332 Max:  1390 Err:     1 (0.49%)
