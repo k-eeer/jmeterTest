@@ -15,6 +15,8 @@
 
 ![](https://github.com/k-eeer/jmetertest/blob/master/illustration/testStructure.png)
 
+and detail description of those tests are in ./illustration folder.
+
 
     It'll generate a result as .jtl file. You  can view it in  chart or graph  with jmeter  GUI listeners.
 
