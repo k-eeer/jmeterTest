@@ -1,17 +1,21 @@
-#environment and prerequest:
+This scripts(run_jmeter.sh), you can run a demo of non_GUI mode jmeter script(allwebtest.jmx) ,which includes 
+some test cases like integrate testiing, white box testing, etc. It will generate a typical Jmeter output(.jtl and .log file) 
+and a .txt file to give a quick check tests are success or not (stress test is not included).
+
+# environment and prerequisites:
 	
 	Ubuntu 18.04
 	Apache Jmeter 5.1.1
  	Git realtive setting
 
 
-#description and usage:
+# description and usage:
 
     By run_jmeter.sh, you can run a non-GUI mode jmeter script(allwebtest.jmx).
 	$sh ./run_allwebtest.sh
 
 
-    The whole test stucture:
+    The whole test list :
 
 ![](https://github.com/k-eeer/jmetertest/blob/master/illustration/testStructure.png)
 
