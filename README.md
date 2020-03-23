@@ -1,6 +1,6 @@
 This scripts(run_jmeter.sh), you can run a demo of non_GUI mode jmeter script(allwebtest.jmx) ,which includes 
 some test cases like integrate testiing, white box testing, etc. It will generate a typical Jmeter output(.jtl and .log file) 
-and a .txt file to give a quick check tests are success or not (stress test is not included).
+and a .txt file to give a quick check tests are success or not (stress test is not included). It will also update change to remote github repository.
 
 # environment and prerequisites:
 	
